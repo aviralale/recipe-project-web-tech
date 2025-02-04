@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+h1 {
+  font-family: "Crimson Text", serif;
+  font-size: 3rem;
+  color: #d32f2f;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.momo-image-container {
+  overflow: hidden;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16/9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.momo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+.momo-image:hover {
+  transform: scale(1.05);
+}
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+h2 {
+  font-family: "Crimson Text", serif;
+  border-bottom: 3px solid #d32f2f;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #d32f2f;
+}
+ul,
+ol {
+  padding-left: 2rem;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.nutrition-table thead {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.nutrition-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.nutrition-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.video-container {
+  overflow: hidden;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16/9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.recipe-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+footer {
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 2px solid #d32f2f;
+  font-family: "Poppins", sans-serif;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #d32f2f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #a00;
+  text-decoration: underline;
+}
+
+footer small {
+  color: #666;
+  font-style: italic;
+}
